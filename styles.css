@@ -1,0 +1,48 @@
+.main-container{
+	width: 100vw;
+}
+.deal-container{
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right: auto;
+	border: 3px black solid;
+  	border-radius: 25px;
+  	font-family: "Lucida Console", "Courier New", monospace;
+	width: 80%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	background: limegreen;
+}
+.deal-details{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: cnetr;
+}
+.deal-thumbnail{
+	border: 3px black solid;
+}
+.deal-title{
+	border: 3px black solid;
+  	border-radius: 25px;
+	padding: 15px;
+	background: deepskyblue;
+}
+.link-button{
+	border: 3px black solid;
+  	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width:60px;
+	padding:10px;
+	background: red;
+	color: white;
+  	text-align: center;
+  	text-decoration: none;
+	box-shadow: 3px 3px black;
+}
+.link-button:active{
+	box-shadow: none;
+  	transform: translate(3px,3px);
+}
